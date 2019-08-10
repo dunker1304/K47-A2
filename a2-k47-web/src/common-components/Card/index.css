@@ -1,0 +1,24 @@
+:root{
+    --card-width: 240px;
+}
+div.card{
+    width: var(--card-width);
+    height: auto;
+    margin: 0px;
+}
+div.image{
+    width: var(--card-width);
+    min-height: 200px;
+}
+div.label{
+    width: var(--card-width);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+div.label p{
+    margin: 0px;
+    color: white;
+}

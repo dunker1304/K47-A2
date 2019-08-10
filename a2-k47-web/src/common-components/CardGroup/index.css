@@ -1,0 +1,14 @@
+div.card-group-wrapper{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.card-group-wrapper .card{
+    margin-right: 10px;
+}
+
+div.card-group-wrapper div:last-child{
+    margin-right: 0px;
+}
